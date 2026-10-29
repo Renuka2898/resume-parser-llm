@@ -6,7 +6,7 @@ import streamlit as st
 from dotenv import load_dotenv
 
 load_dotenv()
-API_URL = os.getenv("API_URL", "http://127.0.0.1:8000")
+API_URL = os.getenv("API_URL", "http://127.0.0.1:8001")
 st.set_page_config(page_title="AI Resume Parser", page_icon="📄", layout="wide")
 st.title("AI-Powered Resume Parser")
 st.write("Upload a PDF or DOCX resume to extract information using an LLM.")
